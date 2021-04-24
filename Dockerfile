@@ -1,6 +1,6 @@
 FROM ubuntu:bionic-20190204
 
-RUN apt-get update && apt-get install -y python3.6 curl=7.58.0-2ubuntu3.6
+RUN apt-get update && apt-get install -y python3.6 curl ash
 
 RUN apt-get update && apt-get install -y python3-distutils
 
